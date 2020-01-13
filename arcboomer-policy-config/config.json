@@ -1,0 +1,2988 @@
+{
+  "pages": {
+    "home": {
+      "label": "Home",
+      "type": "NORMAL",
+      "mode": "AUTO_SCROLL",
+      "layout": {
+        "LARGE": "home-layout-large"
+      },
+      "isVisible": true,
+      "isDefault": false,
+      "id": "home"
+    },
+    "page_1": {
+      "id": "page_1",
+      "label": "Policy",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_3"
+      },
+      "isVisible": true,
+      "isDefault": false
+    },
+    "page_2": {
+      "id": "page_2",
+      "label": "Facility Performance - Home ealth",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_13"
+      },
+      "isVisible": true,
+      "isDefault": true
+    },
+    "page_3": {
+      "id": "page_3",
+      "label": "High Risk",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_35"
+      },
+      "isVisible": true,
+      "isDefault": false
+    }
+  },
+  "layouts": {
+    "home-layout-large": {
+      "type": "FLOW",
+      "order": [],
+      "content": {}
+    },
+    "layout_3": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": -2,
+            "top": -1,
+            "width": "100.0000%",
+            "height": "99.8698%",
+            "right": 2
+          },
+          "widgetId": "widget_1",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "width": true,
+              "top": false
+            },
+            "fullsize": false,
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "1.7975%",
+            "top": "1.8239%",
+            "width": "400px",
+            "height": "95.9615%"
+          },
+          "widgetId": "widget_2",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false
+            },
+            "lockParent": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_4": {
+      "type": "FIXED"
+    },
+    "layout_5": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1",
+        "4"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "17px",
+            "top": "18px",
+            "width": "30px",
+            "height": "30px"
+          },
+          "widgetId": "widget_3",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "48px",
+            "top": "17px",
+            "width": "104px",
+            "height": "35px"
+          },
+          "widgetId": "widget_4",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "18px",
+            "top": "87px",
+            "width": "360px",
+            "height": "359px"
+          },
+          "widgetId": "widget_5",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_8": {
+      "order": [
+        "0",
+        "3",
+        "4",
+        "5"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": 358,
+            "height": 87
+          },
+          "widgetId": "widget_6"
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": 358,
+            "height": 41
+          },
+          "widgetId": "widget_11",
+          "setting": {
+            "fitContainer": false
+          },
+          "isPending": false
+        },
+        "4": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {}
+          },
+          "bbox": {
+            "width": 358,
+            "height": 130
+          },
+          "widgetId": "widget_9"
+        },
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": 358,
+            "height": 74
+          },
+          "widgetId": "widget_12"
+        }
+      }
+    },
+    "layout_9": {
+      "type": "ROW",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 5,
+            "width": 2,
+            "height": 98
+          },
+          "widgetId": "widget_7",
+          "setting": {
+            "heightMode": "ratio"
+          }
+        }
+      }
+    },
+    "layout_10": {
+      "type": "ROW",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 1,
+            "width": 10,
+            "height": 135
+          },
+          "widgetId": "widget_10"
+        }
+      }
+    },
+    "layout_11": {
+      "type": "ROW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {}
+          },
+          "bbox": {
+            "left": "0px",
+            "top": "NaNpx",
+            "width": "12px",
+            "height": "45px"
+          },
+          "widgetId": "widget_8"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_12": {
+      "type": "ROW",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 1,
+            "width": 5,
+            "height": 42
+          },
+          "widgetId": "widget_13"
+        }
+      }
+    },
+    "layout_13": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "-2px",
+            "top": 0,
+            "width": "100.0000%",
+            "height": "94.6667%",
+            "right": "2px",
+            "bottom": 0
+          },
+          "widgetId": "widget_14",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "width": true,
+              "top": false,
+              "bottom": false,
+              "height": true
+            },
+            "fullsize": false,
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "1%",
+            "top": "2%",
+            "width": "450px",
+            "height": "30%"
+          },
+          "widgetId": "widget_15",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false
+            },
+            "lockParent": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "1%",
+            "top": "38.1545%",
+            "width": "450px",
+            "height": "64.5%",
+            "bottom": "2%"
+          },
+          "widgetId": "widget_34",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "top": true,
+              "left": false,
+              "bottom": false
+            }
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "44.3125%",
+            "top": "23.4549%",
+            "width": 400,
+            "height": "57.2222%",
+            "right": "1%",
+            "bottom": "2%"
+          },
+          "widgetId": "widget_41",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "bottom": false,
+              "right": false,
+              "top": true,
+              "left": true
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_14": {
+      "type": "FIXED",
+      "order": [],
+      "content": {}
+    },
+    "layout_15": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "20px",
+            "top": "20px",
+            "width": "30px",
+            "height": "30px"
+          },
+          "widgetId": "widget_16",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "48px",
+            "top": "17px",
+            "width": "104px",
+            "height": "35px"
+          },
+          "widgetId": "widget_17",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "21px",
+            "top": "90px",
+            "width": "410px",
+            "height": "150px"
+          },
+          "widgetId": "widget_18",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": true
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "215px",
+            "top": "20px",
+            "width": "215px",
+            "height": "30px",
+            "bottom": "265px",
+            "right": "20px"
+          },
+          "widgetId": "widget_25",
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "top": false,
+              "bottom": true,
+              "right": false,
+              "left": true
+            }
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_16": {
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {}
+          },
+          "bbox": {
+            "width": 358,
+            "height": 130
+          },
+          "widgetId": "widget_23"
+        }
+      },
+      "order": [
+        "2"
+      ]
+    },
+    "layout_19": {
+      "type": "ROW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 1,
+            "width": 10,
+            "height": 135
+          },
+          "widgetId": "widget_24"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_27": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "35px",
+            "top": "196px",
+            "width": "410px",
+            "height": "94%"
+          },
+          "widgetId": "widget_35",
+          "isPending": false,
+          "setting": {
+            "vCenter": true,
+            "hCenter": true
+          }
+        }
+      }
+    },
+    "layout_28": {
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "408px",
+            "height": "300px"
+          },
+          "widgetId": "widget_36",
+          "setting": {
+            "autoProps": {
+              "height": false
+            },
+            "fitContainer": true
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_30": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "20px",
+            "top": "15px",
+            "width": "358px",
+            "height": "32px",
+            "right": "20px",
+            "bottom": "15px"
+          },
+          "widgetId": "widget_40",
+          "setting": {
+            "lockParent": true,
+            "hCenter": false,
+            "vCenter": false,
+            "autoProps": {
+              "width": true,
+              "height": true,
+              "top": false,
+              "bottom": false
+            }
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_31": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    },
+    "layout_33": {
+      "type": "FIXED",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "20px",
+            "top": "15px",
+            "width": "339px",
+            "height": "72px",
+            "right": "20px",
+            "bottom": "15px"
+          },
+          "widgetId": "widget_40",
+          "setting": {
+            "lockParent": true,
+            "hCenter": false,
+            "vCenter": false,
+            "autoProps": {
+              "width": true,
+              "height": true,
+              "top": false,
+              "bottom": false,
+              "right": false
+            }
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "2"
+      ]
+    },
+    "layout_34": {
+      "type": "FIXED",
+      "order": [
+        "1",
+        "2"
+      ],
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "18px",
+            "top": "21px",
+            "width": "360px",
+            "height": "336px"
+          },
+          "widgetId": "widget_43",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "20px",
+            "top": "173px",
+            "width": "359px",
+            "height": "323px"
+          },
+          "widgetId": "widget_44",
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_35": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "-2px",
+            "top": 0,
+            "width": "100.0000%",
+            "height": "94.6667%",
+            "right": "2px",
+            "bottom": 0
+          },
+          "widgetId": "widget_45",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "width": true,
+              "top": false,
+              "bottom": false,
+              "height": true
+            },
+            "fullsize": false,
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "1%",
+            "top": "2%",
+            "width": "450px",
+            "height": "30%"
+          },
+          "widgetId": "widget_46",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false
+            },
+            "lockParent": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "1.0000%",
+            "top": "33.5000%",
+            "width": "450px",
+            "height": "55.2778%",
+            "bottom": "11.2222%"
+          },
+          "widgetId": "widget_53",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "top": true,
+              "left": false,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_36": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {}
+          },
+          "bbox": {
+            "left": "1165px",
+            "top": "440px",
+            "width": "360px",
+            "height": "336px"
+          },
+          "widgetId": "widget_59"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_37": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "20px",
+            "top": "20px",
+            "width": "30px",
+            "height": "30px"
+          },
+          "widgetId": "widget_47",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "48px",
+            "top": "17px",
+            "width": "104px",
+            "height": "35px"
+          },
+          "widgetId": "widget_48",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "21px",
+            "top": "91px",
+            "width": "410px",
+            "height": "104px"
+          },
+          "widgetId": "widget_49",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": true
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "215px",
+            "top": "20px",
+            "width": "215px",
+            "height": "30px",
+            "bottom": "265px",
+            "right": "20px"
+          },
+          "widgetId": "widget_52",
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "top": false,
+              "bottom": true,
+              "right": false,
+              "left": true
+            }
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_38": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {}
+          },
+          "bbox": {
+            "width": 358,
+            "height": 130
+          },
+          "widgetId": "widget_50"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_39": {
+      "type": "ROW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 1,
+            "width": 10,
+            "height": 135
+          },
+          "widgetId": "widget_51"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_40": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "35px",
+            "top": "196px",
+            "width": "410px",
+            "height": "94%"
+          },
+          "widgetId": "widget_54",
+          "isPending": false,
+          "setting": {
+            "vCenter": true,
+            "hCenter": true
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_41": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "408px",
+            "height": "300px"
+          },
+          "widgetId": "widget_55",
+          "setting": {
+            "autoProps": {
+              "height": false
+            },
+            "fitContainer": true
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_42": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "20px",
+            "top": "15px",
+            "width": "339px",
+            "height": "72px",
+            "right": "20px",
+            "bottom": "15px"
+          },
+          "widgetId": "widget_56",
+          "setting": {
+            "lockParent": true,
+            "hCenter": false,
+            "vCenter": false,
+            "autoProps": {
+              "width": true,
+              "height": true,
+              "top": false,
+              "bottom": false,
+              "right": false
+            }
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_43": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "20px",
+            "top": "15px",
+            "width": "358px",
+            "height": "32px",
+            "right": "20px",
+            "bottom": "15px"
+          },
+          "widgetId": "widget_57",
+          "setting": {
+            "lockParent": true,
+            "hCenter": false,
+            "vCenter": false,
+            "autoProps": {
+              "width": true,
+              "height": true,
+              "top": false,
+              "bottom": false
+            }
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_44": {
+      "type": "FIXED"
+    }
+  },
+  "mainSizeMode": "LARGE",
+  "theme": "themes/dark/",
+  "exbVersion": "1.0.0-beta.2",
+  "template": "default",
+  "attributes": {
+    "portalUrl": "https://mapps.maps.arcgis.com"
+  },
+  "themeManifest": {
+    "name": "dark",
+    "label": "Dark",
+    "type": "theme",
+    "thumbnails ": [],
+    "colors": {
+      "primary": "#315dfc",
+      "secondary": "#00c3cc",
+      "success": "#00cca5",
+      "info": "#09acf8",
+      "warning": "#ffab21",
+      "danger": "#f6146f",
+      "light": "#2d3235",
+      "dark": "#fafbfc"
+    },
+    "font": {
+      "fontFamily": "sans-serif",
+      "fontWeight": 500,
+      "color": "#fff"
+    },
+    "version": "1.0.0-beta.2",
+    "exbVersion": "1.0.0-beta.2",
+    "styleFiles": {
+      "css": false,
+      "js": true
+    }
+  },
+  "widgets": {
+    "widget_1": {
+      "id": "widget_1",
+      "uri": "widgets/arcgis/arcgis-map/",
+      "label": "Map 1",
+      "config": {
+        "toolConifg": {
+          "canZoom": false,
+          "canHome": false,
+          "canSearch": true,
+          "canScaleBar": false,
+          "canLayers": true,
+          "canNavigation": false,
+          "canLocate": false,
+          "canCompass": false,
+          "canBaseMap": false,
+          "canMeasure": false,
+          "canFullScreen": false
+        },
+        "layoutIndex": 0,
+        "initialMapDataSourceID": "dataSource_1"
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_4"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_2": {
+      "id": "widget_2",
+      "uri": "widgets/layout/fixed/",
+      "label": "Fixed Panel 1",
+      "config": {},
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_5"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "rgba(36,39,48,1)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 3,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 6,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.45)"
+        }
+      }
+    },
+    "widget_3": {
+      "id": "widget_3",
+      "uri": "widgets/common/image/",
+      "label": "Image 1",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://asen2.esri.com:3001/apps/2/resources/images/widget_3/1578867723776.png",
+            "originalUrl": "https://asen2.esri.com:3001/apps/2/resources/images/widget_3/1578867723776.png",
+            "fileName": "1578867723776.png",
+            "originalName": "4082088-512.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1578867723776"
+          },
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_4": {
+      "id": "widget_4",
+      "uri": "widgets/common/text/",
+      "label": "Text 1",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(22, 173, 225); font-size: 18px;\">ArcBoomer</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_5": {
+      "id": "widget_5",
+      "uri": "widgets/layout/column/",
+      "label": "Column 1",
+      "config": {
+        "space": 2,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_8"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--info-100)"
+        }
+      }
+    },
+    "widget_6": {
+      "id": "widget_6",
+      "uri": "widgets/layout/row/",
+      "label": "Row 1",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              30,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_9"
+        }
+      }
+    },
+    "widget_7": {
+      "id": "widget_7",
+      "uri": "widgets/common/image/",
+      "label": "Image 2",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://asen2.esri.com:3001/apps/2/resources/images/widget_3/1578867723776.png?token=e9PJtvEbebrumFwthZXNOOdOCLIyH3o3WhxHZc3lAirVR_rmdy7V2vN1IyN3ko3jZLP2vIHXUqEAKYFMfcXdO16OKX_C259GJU5lBDAksGblvo3Rkytbyg03eqlWpsSbxxJl7NH-285726lRQmMU1EUtdFWvZbaud6Yqf8yYr78f-UwMm21xB0JHNo_hWSH55iVBzoM3oEdlRh3-AlSw7Q..",
+            "originalUrl": "https://asen2.esri.com:3001/apps/2/resources/images/widget_3/1578867723776.png?token=e9PJtvEbebrumFwthZXNOOdOCLIyH3o3WhxHZc3lAirVR_rmdy7V2vN1IyN3ko3jZLP2vIHXUqEAKYFMfcXdO16OKX_C259GJU5lBDAksGblvo3Rkytbyg03eqlWpsSbxxJl7NH-285726lRQmMU1EUtdFWvZbaud6Yqf8yYr78f-UwMm21xB0JHNo_hWSH55iVBzoM3oEdlRh3-AlSw7Q..",
+            "fileName": "1578867723776.png",
+            "originalName": "4082088-512.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1578867723776"
+          },
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_8": {
+      "id": "widget_8",
+      "uri": "widgets/common/text/",
+      "label": "Text 2",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 25px;\">High Risk Communities</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_9": {
+      "id": "widget_9",
+      "uri": "widgets/layout/row/",
+      "label": "Row 2",
+      "config": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              10,
+              0,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_10"
+        }
+      }
+    },
+    "widget_10": {
+      "id": "widget_10",
+      "uri": "widgets/common/text/",
+      "label": "Text 3",
+      "config": {
+        "text": "<p style=\"line-height: 1.8; text-align: justify;\">This Wikipedia is written in English. Started in 2001&nbsp;(2001), it currently contains 5,994,968 articles.  Many other Wikipedias are available; some of the largest are listed below.</p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_11": {
+      "id": "widget_11",
+      "uri": "widgets/layout/row/",
+      "label": "Row 3",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              10,
+              0,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_11"
+        }
+      }
+    },
+    "widget_12": {
+      "id": "widget_12",
+      "uri": "widgets/layout/row/",
+      "label": "Row 4",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              14,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_12"
+        }
+      }
+    },
+    "widget_13": {
+      "id": "widget_13",
+      "uri": "widgets/common/button/",
+      "label": "Button 1",
+      "config": {
+        "functionConfig": {
+          "text": "View Data",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_2"
+          },
+          "textExpression": null
+        },
+        "styleConfig": {
+          "name": "Default",
+          "themeStyle": {
+            "className": "d-block",
+            "color": "primary"
+          },
+          "customStyle": {
+            "regular": {},
+            "hover": {},
+            "clicked": {}
+          }
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--secondary-100)"
+        }
+      },
+      "useDataSources": []
+    },
+    "widget_14": {
+      "id": "widget_14",
+      "uri": "widgets/arcgis/arcgis-map/",
+      "label": "Map 1 Copy",
+      "config": {
+        "toolConifg": {
+          "canZoom": false,
+          "canHome": false,
+          "canSearch": true,
+          "canScaleBar": false,
+          "canLayers": true,
+          "canNavigation": false,
+          "canLocate": false,
+          "canCompass": false,
+          "canBaseMap": false,
+          "canMeasure": false,
+          "canFullScreen": false
+        },
+        "layoutIndex": 0,
+        "initialMapDataSourceID": "dataSource_2"
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_14"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2"
+        }
+      ]
+    },
+    "widget_15": {
+      "id": "widget_15",
+      "uri": "widgets/layout/fixed/",
+      "label": "Fixed Panel 1 Copy",
+      "config": {},
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_15"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "rgba(36,39,48,1)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 3,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 6,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.45)"
+        },
+        "borderRadius": {
+          "number": [
+            5
+          ],
+          "unit": "px"
+        }
+      }
+    },
+    "widget_16": {
+      "id": "widget_16",
+      "uri": "widgets/common/image/",
+      "label": "Image 1 Copy",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://asen2.esri.com:3001/apps/2/resources/images/widget_3/1578867723776.png",
+            "originalUrl": "https://asen2.esri.com:3001/apps/2/resources/images/widget_3/1578867723776.png",
+            "fileName": "1578867723776.png",
+            "originalName": "4082088-512.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1578867723776"
+          },
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_17": {
+      "id": "widget_17",
+      "uri": "widgets/common/text/",
+      "label": "Text 1 Copy",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(22, 173, 225); font-size: 18px;\">ArcBoomer</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_18": {
+      "id": "widget_18",
+      "uri": "widgets/layout/column/",
+      "label": "Column 1 Copy",
+      "config": {
+        "space": 2,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_16"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "rgba(41,50,60,1)"
+        }
+      }
+    },
+    "widget_23": {
+      "id": "widget_23",
+      "uri": "widgets/layout/row/",
+      "label": "Row 2 Copy",
+      "config": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_19"
+        }
+      }
+    },
+    "widget_24": {
+      "id": "widget_24",
+      "uri": "widgets/common/text/",
+      "label": "Text 3 Copy",
+      "config": {
+        "text": "<p style=\"line-height: 1.8; text-align: justify;\">This Wikipedia is written in English. Started in 2001&nbsp;(2001), it currently contains 5,994,968 articles.  Many other Wikipedias are available; some of the largest are listed below.</p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_25": {
+      "id": "widget_25",
+      "uri": "widgets/common/button/",
+      "label": "Button 2",
+      "config": {
+        "functionConfig": {
+          "text": "Back to Main Menu →",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_1"
+          },
+          "textExpression": null
+        },
+        "styleConfig": {
+          "name": "Default",
+          "themeStyle": {
+            "className": "d-block",
+            "color": "primary",
+            "quickStyleType": "primary"
+          },
+          "customStyle": {
+            "regular": {},
+            "hover": {},
+            "clicked": {}
+          }
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "useDataSources": []
+    },
+    "widget_34": {
+      "id": "widget_34",
+      "uri": "widgets/layout/fixed/",
+      "label": "Fixed Panel 2",
+      "config": {},
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_27"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "rgba(36,39,48,1)"
+        },
+        "borderRadius": {
+          "number": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "unit": "px"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 3,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 6,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "widget_35": {
+      "id": "widget_35",
+      "uri": "widgets/layout/column/",
+      "label": "Column 2",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_28"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "transparent"
+        },
+        "borderRadius": {
+          "number": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "unit": "px"
+        }
+      }
+    },
+    "widget_36": {
+      "id": "widget_36",
+      "uri": "widgets/common/list/",
+      "label": "List 1",
+      "config": {
+        "maxItems": 100,
+        "space": 5,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE6",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "REGULAR": {
+            "cardSize": {
+              "LARGE": {
+                "width": 0,
+                "height": 100
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "rgba(0, 0, 0, 1)",
+                "width": {
+                  "distance": 0,
+                  "unit": "px"
+                }
+              },
+              "background": {
+                "color": "rgba(41,50,60,1)",
+                "fillType": "fit",
+                "image": {
+                  "url": ""
+                }
+              },
+              "borderRadius": {
+                "number": [
+                  4,
+                  4,
+                  4,
+                  4
+                ],
+                "unit": "px"
+              }
+            }
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 0,
+                "height": 100
+              }
+            },
+            "enable": false,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "rgba(0, 0, 0, 1)",
+                "width": {
+                  "distance": 1,
+                  "unit": "px"
+                }
+              }
+            }
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 0,
+                "height": 100
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-300)",
+                "width": {
+                  "distance": 2,
+                  "unit": "px"
+                }
+              },
+              "background": {
+                "color": "rgba(41,50,60,1)",
+                "fillType": "fit",
+                "image": {
+                  "url": ""
+                }
+              }
+            },
+            "selectionMode": "SINGLE"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "searchFields": "Provider_Name",
+        "filters": null,
+        "sorts": [
+          {
+            "ruleOptionName": "City",
+            "isEditOptionName": false,
+            "rule": [
+              {
+                "jimuFieldName": "City",
+                "order": "ASC"
+              }
+            ]
+          }
+        ],
+        "lockItemRatio": false,
+        "searchOpen": true,
+        "sortOpen": true,
+        "filterOpen": false,
+        "showSelectedOnlyOpen": false
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "REGULAR": {
+          "LARGE": "layout_33"
+        },
+        "SELECTED": {
+          "LARGE": "layout_30"
+        },
+        "HOVER": {
+          "LARGE": "layout_31"
+        }
+      },
+      "outputDataSources": [
+        "widget_36-output"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "City",
+            "Provider_Name"
+          ]
+        }
+      ],
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "transparent"
+        }
+      }
+    },
+    "widget_40": {
+      "uri": "widgets/common/text/",
+      "config": {
+        "text": "<p style=\"line-height: 1.8; text-align: left;\"><strong style=\"font-size: 13px;\"><exp data-uniqueid=\"14dc59fe_39ab_cfc6_635f_fa7f87e1bdca\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BProvider%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BProvider%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Provider_Name%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Provider Name}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </strong></p><p style=\"text-align: left;\"><span style=\"font-size: 12px;\"><exp data-uniqueid=\"11c4e4d7_583a_03df_64f9_6795842c8bcb\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BCity%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCity%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22City%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{City}﻿﻿﻿﻿﻿﻿</span>﻿</exp>, CA  <exp data-uniqueid=\"d3a7006a_7849_1e4d_2ea9_f30053c54499\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BZip%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BZip%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Zip%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{Zip}﻿﻿﻿﻿﻿﻿</span>﻿</exp></span></p>",
+        "placeholder": "<p style=\"text-align: left;\"><span style=\"font-size: 13px;\">Lorem ipsum dolor sit amet</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "label": "Text 5",
+      "version": "1.0.0-beta.2",
+      "id": "widget_40",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Provider_Name",
+            "City",
+            "Zip"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_41": {
+      "id": "widget_41",
+      "uri": "widgets/layout/fixed/",
+      "label": "Fixed Panel 3",
+      "config": {},
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_34"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "rgba(36,39,48,1)"
+        },
+        "borderRadius": {
+          "number": [
+            6,
+            6,
+            6,
+            6
+          ],
+          "unit": "px"
+        }
+      }
+    },
+    "widget_43": {
+      "id": "widget_43",
+      "uri": "widgets/common/text/",
+      "label": "Text 6",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 16px;\"><exp data-uniqueid=\"aede3bf3_a37f_0aaa_2155_4b392893b561\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BProvider%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BProvider%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Provider_Name%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Provider Name}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></strong></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><exp data-uniqueid=\"8b1685d0_1445_dd19_0adc_1b9afcd86435\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BAddress%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAddress%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Address%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Address}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><exp data-uniqueid=\"4047606f_bc76_c5a1_ccfe_c0f1b9fe1cc4\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BCity%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCity%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22City%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{City}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>, <exp data-uniqueid=\"43c02da7_8919_981d_d63a_2837218ea922\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BState%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BState%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22State%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{State}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> <exp data-uniqueid=\"9bb8c392_2cbe_3419_cc7f_30fdb07806ea\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BZip%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BZip%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Zip%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Zip}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p><br></p><p><strong>Type of Ownership:</strong></p><p><exp data-uniqueid=\"f0046e80_370c_69d2_bc83_f1277079a7da\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BType%20of%20Ownership%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BType%20of%20Ownership%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Type_of_Ownership%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{Type of Ownership}﻿﻿</span>﻿</exp> </p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Provider_Name",
+            "Address",
+            "City",
+            "State",
+            "Zip",
+            "Type_of_Ownership"
+          ]
+        }
+      ]
+    },
+    "widget_44": {
+      "id": "widget_44",
+      "uri": "widgets/arcgis/feature-info/",
+      "label": "Feature Info 1",
+      "config": {
+        "limitGraphics": false,
+        "maxGraphics": 0,
+        "title": false,
+        "fields": true,
+        "media": true,
+        "attachments": true,
+        "lastEditInfo": true,
+        "noDataMessage": ""
+      },
+      "version": "1.0.0-beta.2",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+          "rootDataSourceId": "dataSource_2"
+        }
+      ]
+    },
+    "widget_45": {
+      "id": "widget_45",
+      "uri": "widgets/arcgis/arcgis-map/",
+      "label": "Map 1 Copy Copy",
+      "config": {
+        "toolConifg": {
+          "canZoom": false,
+          "canHome": false,
+          "canSearch": true,
+          "canScaleBar": false,
+          "canLayers": true,
+          "canNavigation": false,
+          "canLocate": false,
+          "canCompass": false,
+          "canBaseMap": false,
+          "canMeasure": false,
+          "canFullScreen": false
+        },
+        "layoutIndex": 0,
+        "initialMapDataSourceID": "dataSource_1"
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_36"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2"
+        },
+        {
+          "dataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_46": {
+      "id": "widget_46",
+      "uri": "widgets/layout/fixed/",
+      "label": "Fixed Panel 1 Copy Copy",
+      "config": {},
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_37"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "rgba(36,39,48,1)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 3,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 6,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.45)"
+        },
+        "borderRadius": {
+          "number": [
+            5
+          ],
+          "unit": "px"
+        }
+      }
+    },
+    "widget_47": {
+      "id": "widget_47",
+      "uri": "widgets/common/image/",
+      "label": "Image 1 Copy Copy",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://asen2.esri.com:3001/apps/2/resources/images/widget_3/1578867723776.png",
+            "originalUrl": "https://asen2.esri.com:3001/apps/2/resources/images/widget_3/1578867723776.png",
+            "fileName": "1578867723776.png",
+            "originalName": "4082088-512.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1578867723776"
+          },
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_48": {
+      "id": "widget_48",
+      "uri": "widgets/common/text/",
+      "label": "Text 1 Copy Copy",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(22, 173, 225); font-size: 18px;\">ArcBoomer</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_49": {
+      "id": "widget_49",
+      "uri": "widgets/layout/column/",
+      "label": "Column 1 Copy Copy",
+      "config": {
+        "space": 2,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_38"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "rgba(41,50,60,1)"
+        }
+      }
+    },
+    "widget_50": {
+      "id": "widget_50",
+      "uri": "widgets/layout/row/",
+      "label": "Row 2 Copy Copy",
+      "config": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_39"
+        }
+      }
+    },
+    "widget_51": {
+      "id": "widget_51",
+      "uri": "widgets/common/text/",
+      "label": "Text 3 Copy Copy",
+      "config": {
+        "text": "<p style=\"line-height: 1.8; text-align: justify;\">This Wikipedia is written in English. Started in 2001&nbsp;(2001), it currently contains 5,994,968 articles.  Many other Wikipedias are available; some of the largest are listed below.</p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_52": {
+      "id": "widget_52",
+      "uri": "widgets/common/button/",
+      "label": "Button 2 Copy",
+      "config": {
+        "functionConfig": {
+          "text": "Back to Main Menu →",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_1"
+          },
+          "textExpression": null
+        },
+        "styleConfig": {
+          "name": "Default",
+          "themeStyle": {
+            "className": "d-block",
+            "color": "primary",
+            "quickStyleType": "primary"
+          },
+          "customStyle": {
+            "regular": {},
+            "hover": {},
+            "clicked": {}
+          }
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "useDataSources": []
+    },
+    "widget_53": {
+      "id": "widget_53",
+      "uri": "widgets/layout/fixed/",
+      "label": "Fixed Panel 2 Copy",
+      "config": {},
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_40"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "rgba(36,39,48,1)"
+        },
+        "borderRadius": {
+          "number": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "unit": "px"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 3,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 6,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "widget_54": {
+      "id": "widget_54",
+      "uri": "widgets/layout/column/",
+      "label": "Column 2 Copy",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_41"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "transparent"
+        },
+        "borderRadius": {
+          "number": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "unit": "px"
+        }
+      }
+    },
+    "widget_55": {
+      "id": "widget_55",
+      "uri": "widgets/common/list/",
+      "label": "List 1 Copy",
+      "config": {
+        "maxItems": 100,
+        "space": 5,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE6",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "REGULAR": {
+            "cardSize": {
+              "LARGE": {
+                "width": 0,
+                "height": 100
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "rgba(0, 0, 0, 1)",
+                "width": {
+                  "distance": 0,
+                  "unit": "px"
+                }
+              },
+              "background": {
+                "color": "rgba(41,50,60,1)",
+                "fillType": "fit",
+                "image": {
+                  "url": ""
+                }
+              },
+              "borderRadius": {
+                "number": [
+                  4,
+                  4,
+                  4,
+                  4
+                ],
+                "unit": "px"
+              }
+            }
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 0,
+                "height": 100
+              }
+            },
+            "enable": false,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "rgba(0, 0, 0, 1)",
+                "width": {
+                  "distance": 1,
+                  "unit": "px"
+                }
+              }
+            }
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 0,
+                "height": 100
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-300)",
+                "width": {
+                  "distance": 2,
+                  "unit": "px"
+                }
+              },
+              "background": {
+                "color": "rgba(41,50,60,1)",
+                "fillType": "fit",
+                "image": {
+                  "url": ""
+                }
+              }
+            },
+            "selectionMode": "SINGLE"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "searchFields": "Provider_Name",
+        "filters": null,
+        "sorts": [
+          {
+            "ruleOptionName": "City",
+            "isEditOptionName": false,
+            "rule": [
+              {
+                "jimuFieldName": "City",
+                "order": "ASC"
+              }
+            ]
+          }
+        ],
+        "lockItemRatio": false,
+        "searchOpen": true,
+        "sortOpen": true,
+        "filterOpen": false,
+        "showSelectedOnlyOpen": false
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "REGULAR": {
+          "LARGE": "layout_42"
+        },
+        "SELECTED": {
+          "LARGE": "layout_43"
+        },
+        "HOVER": {
+          "LARGE": "layout_44"
+        }
+      },
+      "outputDataSources": [
+        "dataSource_3"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "City",
+            "Provider_Name"
+          ]
+        }
+      ],
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "transparent"
+        }
+      }
+    },
+    "widget_56": {
+      "uri": "widgets/common/text/",
+      "config": {
+        "text": "<p style=\"line-height: 1.8; text-align: left;\"><strong style=\"font-size: 13px;\"><exp data-uniqueid=\"14dc59fe_39ab_cfc6_635f_fa7f87e1bdca\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BProvider%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BProvider%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Provider_Name%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Provider Name}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </strong></p><p style=\"text-align: left;\"><span style=\"font-size: 12px;\"><exp data-uniqueid=\"11c4e4d7_583a_03df_64f9_6795842c8bcb\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BCity%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCity%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22City%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{City}﻿﻿﻿﻿﻿﻿</span>﻿</exp>, CA  <exp data-uniqueid=\"d3a7006a_7849_1e4d_2ea9_f30053c54499\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BZip%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BZip%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Zip%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{Zip}﻿﻿﻿﻿﻿﻿</span>﻿</exp></span></p>",
+        "placeholder": "<p style=\"text-align: left;\"><span style=\"font-size: 13px;\">Lorem ipsum dolor sit amet</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "label": "Text 5 Copy",
+      "version": "1.0.0-beta.2",
+      "id": "widget_56",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Provider_Name",
+            "City",
+            "Zip"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_57": {
+      "uri": "widgets/common/text/",
+      "config": {
+        "text": "<p style=\"line-height: 1.8; text-align: left;\"><strong style=\"font-size: 13px;\"><exp data-uniqueid=\"14dc59fe_39ab_cfc6_635f_fa7f87e1bdca\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BProvider%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BProvider%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Provider_Name%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Provider Name}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </strong></p><p style=\"text-align: left;\"><span style=\"font-size: 12px;\"><exp data-uniqueid=\"11c4e4d7_583a_03df_64f9_6795842c8bcb\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BCity%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCity%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22City%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{City}﻿﻿﻿﻿﻿﻿</span>﻿</exp>, CA  <exp data-uniqueid=\"d3a7006a_7849_1e4d_2ea9_f30053c54499\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BZip%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BZip%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Zip%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{Zip}﻿﻿﻿﻿﻿﻿</span>﻿</exp></span></p>",
+        "placeholder": "<p style=\"text-align: left;\"><span style=\"font-size: 13px;\">Lorem ipsum dolor sit amet</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "label": "Text 5 Copy",
+      "version": "1.0.0-beta.2",
+      "id": "widget_57",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Provider_Name",
+            "City",
+            "Zip"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_59": {
+      "id": "widget_59",
+      "uri": "widgets/common/text/",
+      "label": "Text 6 Copy",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 16px;\"><exp data-uniqueid=\"aede3bf3_a37f_0aaa_2155_4b392893b561\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BProvider%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BProvider%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Provider_Name%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Provider Name}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></strong></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><exp data-uniqueid=\"8b1685d0_1445_dd19_0adc_1b9afcd86435\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BAddress%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAddress%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Address%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Address}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><exp data-uniqueid=\"4047606f_bc76_c5a1_ccfe_c0f1b9fe1cc4\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BCity%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCity%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22City%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{City}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>, <exp data-uniqueid=\"43c02da7_8919_981d_d63a_2837218ea922\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BState%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BState%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22State%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{State}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> <exp data-uniqueid=\"9bb8c392_2cbe_3419_cc7f_30fdb07806ea\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BZip%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BZip%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Zip%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Zip}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p><br></p><p><strong>Type of Ownership:</strong></p><p><exp data-uniqueid=\"f0046e80_370c_69d2_bc83_f1277079a7da\" data-dsid=\"dataSource_2-Home_Health_Care_Agencies_1613\" data-expression=\"%7B%22name%22%3A%22%7BType%20of%20Ownership%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BType%20of%20Ownership%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Home_Health_Care_Agencies_1613%22%2C%22jimuFieldName%22%3A%22Type_of_Ownership%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{Type of Ownership}﻿﻿</span>﻿</exp> </p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Provider_Name",
+            "Address",
+            "City",
+            "State",
+            "Zip",
+            "Type_of_Ownership"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_2"
+        }
+      ]
+    }
+  },
+  "widgetsManifest": {
+    "widgets/arcgis/arcgis-map/": {
+      "name": "arcgis-map",
+      "label": "Map",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "publishMessages": [
+        "EXTENT_CHANGE",
+        "DATA_RECORDS_SELECTION_CHANGE"
+      ],
+      "messageActions": [
+        {
+          "name": "displayFeatureSet",
+          "label": "Display feature set",
+          "uri": "message-actions/display-feature-set-action"
+        },
+        {
+          "name": "panTo",
+          "label": "Pan to",
+          "uri": "message-actions/pan-to-action",
+          "settingUri": "message-actions/pan-to-action-setting"
+        },
+        {
+          "name": "zoomToFeature",
+          "label": "Zoom to",
+          "uri": "message-actions/zoom-to-feature-action",
+          "settingUri": "message-actions/zoom-to-feature-action-setting"
+        },
+        {
+          "name": "flash",
+          "label": "Flash",
+          "uri": "message-actions/flash-action",
+          "settingUri": "message-actions/flash-action-setting"
+        },
+        {
+          "name": "filter",
+          "label": "Filter",
+          "uri": "message-actions/filter-action",
+          "settingUri": "message-actions/filter-action-setting"
+        }
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "properties": {
+        "hasLocale": false,
+        "autoBindDataSource": false,
+        "canCreateMapView": true,
+        "hasEmbeddedLayout": true,
+        "layouts": [
+          {
+            "name": "MapFixedLayout",
+            "label": "Map FixedLayout",
+            "type": "FIXED"
+          }
+        ]
+      },
+      "supportedLocales": [
+        "en"
+      ]
+    },
+    "widgets/layout/fixed/": {
+      "name": "fixed",
+      "label": "Fixed Panel",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "properties": {
+        "type": "LAYOUT",
+        "layouts": [
+          {
+            "name": "DEFAULT",
+            "label": "Default",
+            "type": "FIXED"
+          }
+        ],
+        "hasSettingPage": false,
+        "hasConfig": false,
+        "hasBuilderSupportModule": true,
+        "hasLayoutItemSettingPage": true
+      },
+      "supportedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      }
+    },
+    "widgets/common/image/": {
+      "name": "image",
+      "label": "Image",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "defaultSize": {
+        "width": 300,
+        "height": 300
+      },
+      "properties": {
+        "hasSettingPage": true,
+        "supportRepeat": true,
+        "hasLocale": true,
+        "hasBuilderSupportModule": true
+      },
+      "supportedLocales": [
+        "en"
+      ],
+      "extensions": [
+        {
+          "name": "chooseshape",
+          "point": "CONTEXT_TOOL",
+          "uri": "tools/chooseshape"
+        },
+        {
+          "name": "croptool",
+          "point": "CONTEXT_TOOL",
+          "uri": "tools/croptool"
+        }
+      ]
+    },
+    "widgets/common/text/": {
+      "name": "text",
+      "label": "Text",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "defaultSize": {
+        "width": 360,
+        "height": 70
+      },
+      "properties": {
+        "hasSettingPage": true,
+        "supportInlineEditing": true,
+        "supportRepeat": true,
+        "hasBuilderSupportModule": true
+      },
+      "extensions": [
+        {
+          "name": "inline-editing",
+          "point": "CONTEXT_TOOL",
+          "uri": "tools/inline-editing"
+        },
+        {
+          "name": "expression",
+          "point": "CONTEXT_TOOL",
+          "uri": "tools/expression"
+        }
+      ],
+      "supportedLocales": [
+        "en"
+      ]
+    },
+    "widgets/layout/column/": {
+      "name": "column",
+      "label": "Column",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "properties": {
+        "type": "LAYOUT",
+        "hasBuilderSupportModule": true,
+        "hasLayoutItemSettingPage": true
+      },
+      "supportedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 300,
+        "height": 600
+      }
+    },
+    "widgets/layout/row/": {
+      "name": "row",
+      "label": "Row",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "properties": {
+        "type": "LAYOUT",
+        "layouts": [
+          {
+            "name": "DEFAULT",
+            "label": "Default",
+            "type": "ROW"
+          }
+        ],
+        "hasBuilderSupportModule": true,
+        "hasLayoutItemSettingPage": true
+      },
+      "supportedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 800,
+        "height": 400
+      },
+      "extensions": [
+        {
+          "name": "LayoutTransformer",
+          "point": "LAYOUT_TRANSFORMER",
+          "uri": "layout/layout-transform"
+        }
+      ]
+    },
+    "widgets/common/button/": {
+      "name": "button",
+      "label": "Button",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "properties": {
+        "hasLocale": true,
+        "hasSettingPage": true,
+        "supportRepeat": true,
+        "hasBuilderSupportModule": true
+      },
+      "extensions": [
+        {
+          "name": "quick-style",
+          "point": "CONTEXT_TOOL",
+          "uri": "tools/quick-style"
+        }
+      ],
+      "defaultSize": {
+        "width": 220,
+        "height": 50
+      },
+      "supportedLocales": [
+        "en"
+      ]
+    },
+    "widgets/common/list/": {
+      "name": "list",
+      "label": "List",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "messageActions": [
+        {
+          "name": "filter",
+          "label": "Filter",
+          "uri": "message-actions/filter-action",
+          "settingUri": "message-actions/filter-action-setting"
+        }
+      ],
+      "publishMessages": [
+        "DATA_RECORDS_SELECTION_CHANGE"
+      ],
+      "defaultSize": {
+        "width": 620,
+        "height": 275
+      },
+      "properties": {
+        "hasLocale": false,
+        "hasEmbeddedLayout": true,
+        "layouts": [
+          {
+            "name": "REGULAR",
+            "label": "regular"
+          },
+          {
+            "name": "SELECTED",
+            "label": "selected"
+          },
+          {
+            "name": "HOVER",
+            "label": "hover"
+          }
+        ],
+        "hasBuilderSupportModule": true
+      },
+      "supportedLocales": [
+        "en"
+      ]
+    },
+    "widgets/arcgis/feature-info/": {
+      "name": "feature-info",
+      "label": "Feature Info",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "publishMessages": [
+        "DATA_RECORDS_SELECTION_CHANGE"
+      ],
+      "messageActions": [
+        {
+          "name": "displayFeature",
+          "label": "Display feature",
+          "uri": "message-actions/display-feature-action"
+        }
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "properties": {
+        "hasLocale": false,
+        "autoBindDataSource": false
+      },
+      "supportedLocales": [
+        "en"
+      ]
+    }
+  },
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "type": "WEB_MAP",
+      "itemId": "8e9cf7c259564eb7ac91a8534ea7d0a8",
+      "id": "dataSource_1",
+      "label": "Default Map",
+      "portalUrl": "https://mapps.maps.arcgis.com"
+    },
+    "dataSource_2": {
+      "type": "WEB_MAP",
+      "itemId": "2d23dfe6249e4df784c3e7f596864797",
+      "id": "dataSource_2",
+      "label": "High Risk Communities",
+      "portalUrl": "https://mapps.maps.arcgis.com"
+    },
+    "widget_36-output": {
+      "id": "widget_36-output",
+      "label": "List 1 loaded features",
+      "type": "FEATURE_SET",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+          "rootDataSourceId": "dataSource_2"
+        }
+      ],
+      "isOutputFromWidget": true
+    },
+    "dataSource_3": {
+      "id": "dataSource_3",
+      "label": "List 1 loaded features Copy",
+      "type": "FEATURE_SET",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+          "rootDataSourceId": "dataSource_2"
+        }
+      ],
+      "isOutputFromWidget": true
+    }
+  },
+  "messageConfigs": {
+    "messageConfig_1": {
+      "id": "messageConfig_1",
+      "widgetId": "widget_36",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_14-zoomToFeature-1578874891847",
+          "widgetId": "widget_14",
+          "messageWidgetId": "widget_36",
+          "actionName": "zoomToFeature",
+          "description": null
+        },
+        {
+          "actionId": "widget_14-flash-1578876883186",
+          "widgetId": "widget_14",
+          "messageWidgetId": "widget_36",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+              "rootDataSourceId": "dataSource_2"
+            },
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          }
+        },
+        {
+          "actionId": "widget_14-zoomToFeature-1578874891847",
+          "widgetId": "widget_45",
+          "messageWidgetId": "widget_36",
+          "actionName": "zoomToFeature",
+          "description": null
+        },
+        {
+          "actionId": "widget_14-flash-1578876883186",
+          "widgetId": "widget_45",
+          "messageWidgetId": "widget_36",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+              "rootDataSourceId": "dataSource_2"
+            },
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          }
+        }
+      ]
+    },
+    "messageConfig_2": {
+      "id": "messageConfig_2",
+      "widgetId": "widget_55",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_14-zoomToFeature-1578874891847",
+          "widgetId": "widget_14",
+          "messageWidgetId": "widget_36",
+          "actionName": "zoomToFeature",
+          "description": null
+        },
+        {
+          "actionId": "widget_14-flash-1578876883186",
+          "widgetId": "widget_14",
+          "messageWidgetId": "widget_36",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+              "rootDataSourceId": "dataSource_2"
+            },
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          }
+        },
+        {
+          "actionId": "widget_14-zoomToFeature-1578874891847",
+          "widgetId": "widget_45",
+          "messageWidgetId": "widget_36",
+          "actionName": "zoomToFeature",
+          "description": null
+        },
+        {
+          "actionId": "widget_14-flash-1578876883186",
+          "widgetId": "widget_45",
+          "messageWidgetId": "widget_36",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_2-Home_Health_Care_Agencies_1613",
+              "rootDataSourceId": "dataSource_2"
+            },
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          }
+        }
+      ]
+    }
+  },
+  "pageStructure": [
+    {
+      "home": []
+    },
+    {
+      "page_1": []
+    },
+    {
+      "page_2": []
+    },
+    {
+      "page_3": []
+    }
+  ],
+  "forBuilderAttributes": {
+    "viewPortSize": {
+      "LARGE": {
+        "width": 1600,
+        "height": 900
+      }
+    }
+  },
+  "customTheme": {
+    "colors": {
+      "primary": "rgba(22,173,225,1)",
+      "secondary": "#2d1754",
+      "info": "#09acf8",
+      "success": "#00cca5",
+      "warning": "#ffab21",
+      "danger": "#f6146f",
+      "light": "#fff",
+      "dark": "rgba(86,86,86,1)"
+    },
+    "darkTheme": true,
+    "coloration": "minimal"
+  }
+}

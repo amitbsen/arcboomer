@@ -1,0 +1,15 @@
+{
+  "name": "search",
+  "type": "widget",
+  "dependency": "jimu-arcgis",
+  "version": "1.0.0-beta.2",
+  "exbVersion": "1.0.0-beta.2",
+  "author": "your name",
+  "description": "displays extent of map",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "defaultSize": {
+    "width": 400,
+    "height": 400
+  }
+}

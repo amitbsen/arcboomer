@@ -1,0 +1,636 @@
+{
+  "pages": {
+    "page_4": {
+      "label": "General info",
+      "type": "NORMAL",
+      "mode": "AUTO_SCROLL",
+      "layout": {
+        "LARGE": "layout_47"
+      },
+      "isVisible": true,
+      "id": "page_4",
+      "icon": {
+        "svg": "<svg viewBox=\"0 0 10 12\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1 0h8a1 1 0 011 1v10a1 1 0 01-1 1H1a1 1 0 01-1-1V1a1 1 0 011-1zm0 1v10h8V1H1zm2 2h4a.5.5 0 010 1H3a.5.5 0 010-1zm0 2.5h4a.5.5 0 010 1H3a.5.5 0 010-1z\" fill=\"#000\" fill-rule=\"nonzero\"></path></svg>",
+        "properties": {
+          "filename": null,
+          "originalName": null,
+          "path": null,
+          "color": "#fff",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "heightInBuilder": {
+        "LARGE": 1344
+      },
+      "isDefault": true
+    }
+  },
+  "layouts": {
+    "layout_19": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "3",
+        "4"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15px",
+            "top": "11px",
+            "width": "97px",
+            "height": "36px"
+          },
+          "widgetId": "widget_1",
+          "isPending": false,
+          "setting": {
+            "vCenter": true,
+            "hCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "92.5858%",
+            "top": "0.0000%",
+            "width": "97px",
+            "height": "100.0000%",
+            "right": "0px"
+          },
+          "widgetId": "widget_2",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true
+            },
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "150px",
+            "top": "13px",
+            "width": "344px",
+            "height": "60px"
+          },
+          "widgetId": "widget_3",
+          "setting": {
+            "hCenter": false,
+            "vCenter": true
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_20": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15px",
+            "top": "11px",
+            "width": "97px",
+            "height": "36px"
+          },
+          "widgetId": "widget_1",
+          "isPending": false,
+          "setting": {
+            "vCenter": true,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "92.5858%",
+            "top": "0.0000%",
+            "width": "97px",
+            "height": "100.0000%",
+            "right": "0px"
+          },
+          "widgetId": "widget_2",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true
+            },
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "150px",
+            "top": "13px",
+            "width": "344px",
+            "height": "60px"
+          },
+          "widgetId": "widget_3",
+          "setting": {
+            "hCenter": false,
+            "vCenter": true
+          },
+          "isPending": true
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_47": {
+      "type": "FLOW",
+      "order": [
+        "11",
+        "4"
+      ],
+      "content": {
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_56",
+          "bbox": {
+            "left": "0px",
+            "top": "1139px",
+            "width": "1920px",
+            "height": "389px"
+          },
+          "isPending": false
+        },
+        "11": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "355px",
+            "top": "-300px",
+            "width": "300px",
+            "height": "600px"
+          },
+          "widgetId": "widget_85"
+        }
+      }
+    },
+    "layout_55": {
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": 640
+          },
+          "widgetId": "widget_88"
+        }
+      },
+      "order": [
+        "2"
+      ],
+      "type": "ROW"
+    },
+    "layout_70": {
+      "type": "ROW",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": 600
+          },
+          "widgetId": "widget_86"
+        }
+      }
+    },
+    "layout_71": {
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "1168px",
+            "height": "297px"
+          },
+          "widgetId": "widget_87",
+          "isPending": false
+        }
+      }
+    }
+  },
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "exbVersion": "1.0.0-beta.2",
+  "widgets": {
+    "widget_1": {
+      "id": "widget_1",
+      "uri": "widgets/common/image/",
+      "label": "Image 1",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {}
+        },
+        "styleConfig": {}
+      },
+      "version": "1.0.0-beta.2",
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "rgba(0,145,255,1)"
+        },
+        "borderRadius": {
+          "number": [
+            3
+          ],
+          "unit": "px"
+        }
+      }
+    },
+    "widget_2": {
+      "id": "widget_2",
+      "uri": "widgets/common/menu/",
+      "label": "Menu 1",
+      "config": {
+        "type": "ICON",
+        "subOpenMode": "FOLDABLE",
+        "icon": {
+          "svg": "<svg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg' class='css-1i7frhi jimu-icon'><path d='M2 1a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4z' fill='currentColor' fill-rule='nonzero'></path></svg>",
+          "properties": {
+            "filename": null,
+            "originalName": null,
+            "path": null,
+            "color": "#121212",
+            "size": 20,
+            "inlineSvg": false
+          }
+        },
+        "main": {
+          "alignment": "center",
+          "space": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "showText": true,
+          "showIcon": false,
+          "iconPosition": "start",
+          "variants": null
+        },
+        "navType": "default",
+        "sub": {
+          "variants": null
+        }
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_3": {
+      "id": "widget_3",
+      "uri": "widgets/common/text/",
+      "label": "Text 1",
+      "config": {
+        "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 1.5rem;\">ArcBoomer People<span class=\"ql-cursor\">﻿</span>﻿</span></p>",
+        "placeholder": "<p><span style='font-size: 1.5rem; color: rgb(0, 0, 0);'>Double click to edit text</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_56": {
+      "id": "widget_56",
+      "uri": "widgets/layout/row/",
+      "label": "Row 15",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              40,
+              10,
+              40,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_55"
+        }
+      }
+    },
+    "widget_85": {
+      "id": "widget_85",
+      "uri": "widgets/layout/row/",
+      "label": "Row 22",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--light-300)"
+        }
+      },
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_70"
+        }
+      }
+    },
+    "widget_86": {
+      "id": "widget_86",
+      "uri": "widgets/layout/column/",
+      "label": "Column 14",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              160,
+              50,
+              40,
+              100
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "version": "1.0.0-beta.2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_71"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": "https://asen2.esri.com:3001/apps/3/resources/images/background_setting/1578944841944.jpg",
+            "originalUrl": "https://asen2.esri.com:3001/apps/3/resources/images/background_setting/1578944841944.jpg",
+            "fileName": "1578944841944.jpg",
+            "originalName": "Untitled design.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1578944841944"
+          },
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_87": {
+      "id": "widget_87",
+      "uri": "widgets/common/text/",
+      "label": "Text 33",
+      "config": {
+        "text": "<p style=\"line-height: 1.4; text-align: left;\"><span style=\"font-size: 60px; color: rgb(255, 255, 255);\">Making health insurance easy.﻿</span></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 1.9;\"><span style=\"font-size: 20px; color: rgb(255, 255, 255);\">﻿</span><span style=\"font-size: 26px; color: rgb(255, 255, 255);\">Use the tools below to find health insurance plans </span></p><p style=\"text-align: left; line-height: 1.9;\"><span style=\"font-size: 26px; color: rgb(255, 255, 255);\">and providers that best fit your needs.</span></p><p style=\"text-align: left; line-height: 1.8;\"><br></p>",
+        "placeholder": "<p style=\"text-align: center;\"><span style=\"font-size: 48px;\">Double click to edit text</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "version": "1.0.0-beta.2"
+    },
+    "widget_88": {
+      "id": "widget_88",
+      "uri": "widgets/search/",
+      "label": "search 1",
+      "config": {
+        "p1": "abc",
+        "p2": "123"
+      },
+      "version": "1.0.0-beta.2"
+    }
+  },
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "scroll2",
+  "attributes": {
+    "portalUrl": "https://mapps.maps.arcgis.com"
+  },
+  "themeManifest": {
+    "name": "default",
+    "label": "Default",
+    "type": "theme",
+    "thumbnails ": [],
+    "colors": {
+      "primary": "#315dfc",
+      "secondary": "#00c3cc",
+      "success": "#00cca5",
+      "info": "#09acf8",
+      "warning": "#ffab21",
+      "danger": "#f6146f",
+      "light": "#fafbfc",
+      "dark": "#2d3235"
+    },
+    "font": {
+      "fontFamily": "Avenir Next W01",
+      "color": "#fff"
+    },
+    "version": "1.0.0-beta.2",
+    "exbVersion": "1.0.0-beta.2",
+    "styleFiles": {
+      "css": false,
+      "js": false
+    }
+  },
+  "widgetsManifest": {
+    "widgets/common/image/": {
+      "name": "image",
+      "label": "Image",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "defaultSize": {
+        "width": 300,
+        "height": 300
+      },
+      "properties": {
+        "hasSettingPage": true,
+        "supportRepeat": true,
+        "hasLocale": true,
+        "hasBuilderSupportModule": true
+      },
+      "supportedLocales": [
+        "en"
+      ],
+      "extensions": [
+        {
+          "name": "chooseshape",
+          "point": "CONTEXT_TOOL",
+          "uri": "tools/chooseshape"
+        },
+        {
+          "name": "croptool",
+          "point": "CONTEXT_TOOL",
+          "uri": "tools/croptool"
+        }
+      ]
+    },
+    "widgets/common/menu/": {
+      "name": "menu",
+      "label": "Menu",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "defaultSize": {
+        "width": 300,
+        "height": 50
+      },
+      "properties": {
+        "hasLocale": true,
+        "hasSettingPage": true
+      },
+      "supportedLocales": [
+        "en"
+      ]
+    },
+    "widgets/common/text/": {
+      "name": "text",
+      "label": "Text",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "defaultSize": {
+        "width": 360,
+        "height": 70
+      },
+      "properties": {
+        "hasSettingPage": true,
+        "supportInlineEditing": true,
+        "supportRepeat": true,
+        "hasBuilderSupportModule": true
+      },
+      "extensions": [
+        {
+          "name": "inline-editing",
+          "point": "CONTEXT_TOOL",
+          "uri": "tools/inline-editing"
+        },
+        {
+          "name": "expression",
+          "point": "CONTEXT_TOOL",
+          "uri": "tools/expression"
+        }
+      ],
+      "supportedLocales": [
+        "en"
+      ]
+    },
+    "widgets/layout/row/": {
+      "name": "row",
+      "label": "Row",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "properties": {
+        "type": "LAYOUT",
+        "layouts": [
+          {
+            "name": "DEFAULT",
+            "label": "Default",
+            "type": "ROW"
+          }
+        ],
+        "hasBuilderSupportModule": true,
+        "hasLayoutItemSettingPage": true
+      },
+      "supportedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 800,
+        "height": 400
+      },
+      "extensions": [
+        {
+          "name": "LayoutTransformer",
+          "point": "LAYOUT_TRANSFORMER",
+          "uri": "layout/layout-transform"
+        }
+      ]
+    },
+    "widgets/layout/column/": {
+      "name": "column",
+      "label": "Column",
+      "type": "widget",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "properties": {
+        "type": "LAYOUT",
+        "hasBuilderSupportModule": true,
+        "hasLayoutItemSettingPage": true
+      },
+      "supportedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 300,
+        "height": 600
+      }
+    },
+    "widgets/search/": {
+      "name": "search",
+      "type": "widget",
+      "dependency": "jimu-arcgis",
+      "version": "1.0.0-beta.2",
+      "exbVersion": "1.0.0-beta.2",
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "properties": {}
+    }
+  },
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {},
+  "messageConfigs": {},
+  "pageStructure": [
+    {
+      "page_4": []
+    }
+  ],
+  "header": {
+    "layout": {
+      "LARGE": "layout_19",
+      "SMALL": "layout_20"
+    },
+    "height": {
+      "LARGE": 20
+    },
+    "backgroundColor": "rgba(227,227,227,1)"
+  }
+}
